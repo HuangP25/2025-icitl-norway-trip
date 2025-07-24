@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2025 ICITL 挝沙行程</title>
+    <!-- Google Fonts for Chinese and Latin characters -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="top">
+      <nav class="navbar">
+        <div class="logo">2025 ICITL 挝沙行程</div>
+        <!-- Hidden checkbox for mobile menu toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+        <ul class="nav-menu">
+          <li><a href="#confirmations">待確認事項</a></li>
+          <li><a href="#flights">航班資訊</a></li>
+          <li><a href="#accommodation">住宿</a></li>
+          <li><a href="#itinerary">行程規劃</a></li>
+          <li><a href="#notes">注意事項</a></li>
+          <li><a href="#oslopass">Oslo Pass</a></li>
+          <li><a href="#studentid">學生證</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <!-- 背景圖片放置在容器內，避免 file:// 權限限制 -->
+        <img
+          src="assets/john.jpg"
+          alt="挝沙嶜灣景觀"
+          class="hero-bg"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>挝沙冒險旅程</h1>
+          <p>探索嶜灣、城市與文化，一起踏上難忘之旅</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- 待確認事項 -->
+      <section id="confirmations" class="section">
+        <h2>待確認事項</h2>
+        <ul>
+          <li>7月26日集合地點待確認。</li>
+          <li>確認機票並儘早選位。</li>
+          <li>移動範圍的巴士程程最大接駁時長約30–40分鐘。</li>
+          <li>考慮購買旅用 SIM 卡或 eSIM。</li>
+          <li>待確認師母寄回本哈根都郭旅日期 7月30日 至 8月2日。</li>
+        </ul>
+      </section>
+      <!-- 航班資訊 -->
+      <section id="flights" class="section">
+        <h2>集合與航班資訊</h2>
+        <p>集合地點：<strong>直接 21:30 機場會合</strong></p>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>航班</th>
+                <th>發班檯頭</th>
+                <th>出發<br />（台灣時間）</th>
+                <th>出發<br />（當地時間）</th>
+                <th>投告<br />（台灣時間）</th>
+                <th>投告<br />（當地時間）</th>
+                <th>總飛航時長</th>
+                <th>備註</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>EK367</td>
+                <td>臺北（TPE）</td>
+                <td>2025‑07‑26 23:50</td>
+                <td>2025‑07‑26 23:50 (TPE)</td>
+                <td>2025‑07‑27 08:35</td>
+                <td>2025‑07‑27 04:35</td>
+                <td>8 小時 45 分</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>EK159</td>
+                <td>杜拜（DXB）</td>
+                <td>2025‑07‑27 17:30</td>
+                <td>2025‑07‑27 11:30 (DXB)</td>
+                <td>2025‑07‑27 18:35</td>
+                <td>2025‑07‑27 12:35 (OSL)</td>
+                <td>7 小時 05 分</td>
+                <td>DXB 轉機 2 小時 55 分</td>
+              </tr>
+              <tr>
+                <td>EK160</td>
+                <td>奧斯陆（OSL）</td>
+                <td>2025‑08‑07 20:35</td>
+                <td>2025‑08‑07 14:35 (OSL)</td>
+                <td>2025‑08‑08 03:25</td>
+                <td>2025‑08‑07 23:25 (DXB)</td>
+                <td>6 小時 50 分</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>EK386</td>
+                <td>杜拜（DXB）</td>
+                <td>2025‑08‑08 13:10</td>
+                <td>2025‑08‑08 08:40 (DXB)</td>
+                <td>2025‑08‑08 21:15</td>
+                <td>2025‑08‑08 21:15 (TPE)</td>
+                <td>8 小時 35 分</td>
+                <td>DXB 轉機 9 小時 15 分</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- 住宿排序 -->
+      <section id="accommodation" class="section">
+        <h2>住宿排序</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>奧斯陆城市之盒飯店</h3>
+            <p class="dates">入住：7月27日 – 7月30日</p>
+            <p>
+              地點位於奧斯陆市中心，方便往來市區景點。預估費用兩間雙人房約
+              29,664 TWD。
+            </p>
+          </div>
+          <div class="card">
+            <h3>Kvadratruen Att</h3>
+            <p class="dates">入住：8月3日 – 8月7日</p>
+            <p>
+              會議期間住宿，提供舒適的房間與早餐，一晚約 7,149 NOK，總費用約
+              68,805 NOK。
+            </p>
+          </div>
+          <div class="card">
+            <h3>杜拜國際機場飯店</h3>
+            <p class="dates">入住：8月7日 – 8月8日</p>
+            <p>轉機時在杜拜機場飯店過夜，預估費用約 15,595 TWD。</p>
+          </div>
+        </div>
+      </section>
+      <!-- 行程規劃 -->
+      <section id="itinerary" class="section">
+        <h2>行程規劃</h2>
+        <ul>
+          <li>
+            <strong>7月27日–29日：</strong>其中一天可安排 Kkday 或 Klook
+            一日遊（如嶜灣遊船或郊外健行）。
+          </li>
+          <li>
+            <strong>7月30日–8月2日：</strong>搭乘郵轉從奧斯陆前往哥本哈根，享受
+            北海之旅。
+          </li>
+          <li>
+            <strong>8月3日–4日：</strong>可再次安排 Kkday 或 Klook
+            一日遊，體驗郊區自然或文化之旅。
+          </li>
+          <li>
+            <strong>8月5日–7日：</strong>研討會期間（PING 研討會，8月5日報到，8月6日師母會議），建議預留時間參加會議。
+          </li>
+          <li>
+            <strong>參考景點：</strong>挝沙超市 REM1000（可品嚐美食或購買烤雞翅與棒
+            棒腿）、奧斯陆多家博物館（如 MUNCH 博物館、國家美術館、Holmenkollen
+            跳臺、挝沙民俗博物館、Fram 極地船與 Kon‑Tiki 船等）。
+          </li>
+        </ul>
+      </section>
+      <!-- 注意事項 / 紀錄用 -->
+      <section id="notes" class="section">
+        <h2>重要注意事項</h2>
+        <ul>
+          <li>當地需提高警觀，尤其在人羣擄擂處留意財物安全。</li>
+          <li>車站附近有些街道有人吸食大麻，建議保持距離。</li>
+          <li>
+            出發前可參考旅遊影片了解挝沙文化與安全項知：
+            <a
+              href="https://www.youtube.com/watch?v=neswooz9G2M"
+              target="_blank"
+              rel="noopener"
+              >挝沙不可不知的5件事</a
+            >、
+            <a
+              href="https://www.youtube.com/watch?v=GTAz9rQht8Y"
+              target="_blank"
+              rel="noopener"
+              >奧斯陆旅行該注意的三個點</a
+            >。
+          </li>
+        </ul>
+        <h3>紀錄用</h3>
+        <ul>
+          <li>
+            7月30日–8月3日乘船往返奧斯陆與哥本哈根：<br />
+            — 阿屏：Commodore 艦型（含早餐與網路）約 765 EUR（約 25,996 TWD）。<br />
+            — 瑾慧：內船+ 網路（往返）與回程豪菲船約 648 EUR。
+          </li>
+          <li>8月6日研討會晚宴：費用約 3,500 TWD（待平分）。</li>
+        </ul>
+      </section>
+      <!-- Oslo Pass -->
+      <section id="oslopass" class="section">
+        <h2>Oslo Pass</h2>
+        <p>
+          Oslo Pass 是奧斯陆官方城市卡，啟用後可在指定區域內無限次搭乘公車、地鐵、電車與近郊火車，並享有景點門票優惠。
+        </p>
+        <ul>
+          <li>
+            <strong>交通：</strong>24/48/72 小時內無限搭乘 Ruter 交通公司 Zone 1–4N 公共運輸。
+          </li>
+          <li>
+            <strong>門票：</strong>可免費進入 30 多個博物館或景點，包括 MUNCH 博物館、國家美術館、Holmenkollen 跳台、挝沙民俗博物館，
+            Fram 極地船與 Kon‑Tiki 船等。
+          </li>
+          <li>
+            <strong>折扣：</strong>搭乘嶜灣觀光船、餐廳與 Tusenfryd 樂園等可享 15–40% 折扣。
+          </li>
+        </ul>
+        <div class="table-container small">
+          <table>
+            <thead>
+              <tr>
+                <th>票種</th>
+                <th>成人</th>
+                <th>老人/學生</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>24 小時</td>
+                <td>445 NOK</td>
+                <td>335 NOK</td>
+              </tr>
+              <tr>
+                <td>48 小時</td>
+                <td>655 NOK</td>
+                <td>525 NOK</td>
+              </tr>
+              <tr>
+                <td>72 小時</td>
+                <td>820 NOK</td>
+                <td>660 NOK</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- 學生證申請 -->
+      <section id="studentid" class="section">
+        <h2>國際學生證申請流程</h2>
+        <ol>
+          <li>進入臺灣 ISIC 官網選擇「我的卡證 → 線上申請」。</li>
+          <li>填寫中文/ 英文姓名、出生日期、學校與 E‑mail。</li>
+          <li>上傳所需文件並給費 450 TWD。</li>
+          <li>約 10–30 分鐘後收到授權編號（E‑mail 通知）。</li>
+          <li>
+            下載 ISIC App，輸入編號即獲得數位卡；如需實體卡，可選擇郵寄或臺證
+            領取。
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <p>
+        © 2025 ICITL Norway Trip | Images courtesy of Unsplash photographers
+        Jarand K. Løkeland 和 John O’Nolan.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
